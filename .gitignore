@@ -1,0 +1,74 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.app
+network_ranger
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Configuration files with sensitive data
+config.ini
+secrets.json
+.env
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Compiled libraries
+*.a
+*.so
+*.dylib
+*.dll
+
+# Core dumps
+core
+core.*
+
+# Coverage reports
+*.gcov
+*.gcda
+*.gcno
+coverage/
+
+# Profiling data
+*.prof
+gmon.out 
+# project Fully made by Hex.
